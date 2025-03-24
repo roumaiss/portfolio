@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "@iconify/tailwind4";
+
+@theme {
+  --font-comfortaa: var(--font-comfortaa);
+  --font-roboto: var(--font-roboto);
+  --font-nunito: var(--font-nunito);
+  --font-playfair-display: var(--font-playfair-display);
+}
+body {
+  background-color: #f9faff;
+}
