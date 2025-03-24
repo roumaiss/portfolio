@@ -9,13 +9,21 @@ export default function Home() {
   return (
     <main>
       {/* hero section */}
-      <section className="flex justify-between items-center mx-[10rem] relative">
-        <div className="w-[60%] flex flex-col gap-5 mt-[5rem]">
-          <p className="font-nunito text-[#FDC435] text-2xl">UI/UX Designer</p>
-          <h1 className="font-playfair-display font-bold text-7xl">
+      <section className="flex flex-col  lg:flex-row justify-between items-center   lg:mx-[10rem] relative">
+      <div className="lg:absolute lg:-top-30 lg:-right-40">
+          <Image
+            src="/images/home2.svg"
+            alt="decorate image"
+            width="700"
+            height="700"
+          ></Image>
+        </div>
+        <div className="lg:w-[60%] flex flex-col gap-5 lg:mt-[5rem] mx-[3rem] lg:mx-0">
+          <p className="font-nunito text-[#FDC435] text-xl  lg:text-2xl">UI/UX Designer</p>
+          <h1 className="font-playfair-display font-bold text-4xl lg:text-6xl">
             Hello, my name is Amirouche Romaissa
           </h1>
-          <p className="font-nunito text-[#828282] text-3xl capitalize">
+          <p className="font-nunito text-[#828282] text-xl lg:text-2xl capitalize">
             Hello! Im Amirouche Romaissa, a passionate web developer dedicated
             to building creative and efficient web solutions. I love crafting
             user-friendly websites and applications that blend functionality
@@ -30,19 +38,11 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="absolute top-0 ">
-          <Image
-            src="/images/home2.svg"
-            alt="decorate image"
-            width="700"
-            height="700"
-          ></Image>
-        </div>
       </section>
       {/* projects section */}
-      <section className="my-[10rem] mx-[15rem] ">
+      <section className="my-[10rem] lg:mx-[15rem] mx-[3rem] ">
         <div className="text-center my-[5rem]">
-          <h2 className="font-playfair-display text-5xl font-bold mb-4">
+          <h2 className="font-playfair-display text-3xl lg:text-5xl font-bold mb-4">
             Projects
           </h2>
           <div className="mt-2 h-1 w-24 bg-[#FDC435] rounded-2xl mx-auto"></div>
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
       <section>
         <div className="text-center my-[5rem]">
-          <h2 className="font-playfair-display text-5xl font-bold mb-4">
+          <h2 className="font-playfair-display text-3xl lg:text-5xl font-bold mb-4">
             Contact
           </h2>
           <div className="mt-2 h-1 w-24 bg-[#FDC435] rounded-2xl mx-auto"></div>
