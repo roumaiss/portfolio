@@ -20,7 +20,7 @@ function Form() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="flex flex-col mx-auto w-[27rem] gap-10 "
+      className="flex flex-col mx-auto w-[20rem] lg:w-[27rem] gap-10 "
     >
       <div className="">
         <label htmlFor="" className="block font-bold font-nunito mb-2">

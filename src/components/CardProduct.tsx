@@ -9,9 +9,9 @@ type CardProps = {
 };
 export default function CardProduct({ title, description, src }: CardProps) {
   return (
-    <div className="card card-side bg-base-100 shadow-sm">
-      <div className="w-[50%] flex flex-col justify-center gap-10 p-10 ">
-        <h2 className="card-title font-playfair-display font-bold text-4xl">
+    <div className="card lg:card-side bg-base-100 shadow-sm">
+      <div className=" card-body lg:w-[50%] flex flex-col justify-center gap-10 p-10 ">
+        <h2 className="card-title font-playfair-display font-bold text-2xl lg:text-4xl">
           {title}
         </h2>
         <p className="font-nunito text-[#828282] text-xl">
@@ -21,7 +21,7 @@ export default function CardProduct({ title, description, src }: CardProps) {
           <Button label="View project" style="rounded-full" href="/productDetail" />
         </div>
       </div>
-      <figure className="w-[50%]">
+      <figure className="lg:w-[50%]">
         <Image
           src={src}
           alt="project1"

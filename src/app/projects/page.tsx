@@ -3,9 +3,9 @@ import React from "react";
 
 export default function page() {
   return (
-    <section className="py-[10rem] mx-[15rem] ">
+    <section className="py-[2rem] mx-[3rem] lg:mx-[15rem] ">
       <div className="text-center my-[5rem]">
-        <h2 className="font-playfair-display text-5xl font-bold mb-4">
+        <h2 className="font-playfair-display text-3xl lg:text-5xl font-bold mb-4">
           Projects
         </h2>
         <div className="mt-2 h-1 w-24 bg-[#FDC435] rounded-2xl mx-auto"></div>
